@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkExprienceFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtFrom"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="33dp"
+                android:text="Role"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtOrg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtRole"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="41dp"
+                android:text="Organization"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtOrg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="45dp"
+                android:text="Address"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtDuties"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtAddress"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="53dp"
+                android:text="Duties"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="231dp"
+                android:layout_marginLeft="231dp"
+                android:layout_marginTop="75dp"
+                android:text="To"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editFrom"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="62dp"
+                android:layout_toEndOf="@+id/txtFrom"
+                android:layout_toRightOf="@+id/txtFrom"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#292626" />
+
+            <EditText
+                android:id="@+id/editTo"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="62dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginRight="17dp"
+                android:layout_toEndOf="@+id/txtTo"
+                android:layout_toRightOf="@+id/txtTo"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#292626" />
+
+            <TextView
+                android:id="@+id/txtFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="74dp"
+                android:text="From"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTo"
+                android:layout_marginStart="101dp"
+                android:layout_marginLeft="101dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@+id/txtRole"
+                android:layout_toRightOf="@+id/txtRole"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#292626" />
+
+            <EditText
+                android:id="@+id/editOrg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editRole"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="34dp"
+                android:layout_toEndOf="@+id/txtOrg"
+                android:layout_toRightOf="@+id/txtOrg"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#292626" />
+
+            <EditText
+                android:id="@+id/editAddress"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editOrg"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="34dp"
+                android:layout_toEndOf="@+id/txtAddress"
+                android:layout_toRightOf="@+id/txtAddress"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#292626" />
+
+            <EditText
+                android:id="@+id/editDuties"
+                android:layout_width="wrap_content"
+                android:layout_height="141dp"
+                android:layout_below="@+id/editAddress"
+                android:layout_marginStart="75dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="32dp"
+                android:layout_toEndOf="@+id/txtDuties"
+                android:layout_toRightOf="@+id/txtDuties"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textColor="#292626" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtRole2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtFrom2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="35dp"
+                android:text="Role"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtOrg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtRole2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="41dp"
+                android:text="Organization"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtAddress2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtOrg2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="45dp"
+                android:text="Address"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtDuties2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtAddress2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="53dp"
+                android:text="Duties"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtTo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="231dp"
+                android:layout_marginLeft="231dp"
+                android:layout_marginTop="77dp"
+                android:text="To"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTo2"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="62dp"
+                android:layout_toEndOf="@+id/txtFrom2"
+                android:layout_toRightOf="@+id/txtFrom2"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#292626" />
+
+            <EditText
+                android:id="@+id/editFrom2"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="68dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toEndOf="@+id/txtTo2"
+                android:layout_toRightOf="@+id/txtTo2"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#292626" />
+
+            <TextView
+                android:id="@+id/txtFrom2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="74dp"
+                android:text="From"
+                android:textColor="#E9CC65"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editRole2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTo2"
+                android:layout_marginStart="101dp"
+                android:layout_marginLeft="101dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@+id/txtRole2"
+                android:layout_toRightOf="@+id/txtRole2"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#E9CC65" />
+
+            <EditText
+                android:id="@+id/editOrg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editRole2"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="34dp"
+                android:layout_toEndOf="@+id/txtOrg2"
+                android:layout_toRightOf="@+id/txtOrg2"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#292626" />
+
+            <EditText
+                android:id="@+id/editAddress2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editOrg2"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginTop="34dp"
+                android:layout_toEndOf="@+id/txtAddress2"
+                android:layout_toRightOf="@+id/txtAddress2"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#292626" />
+
+            <EditText
+                android:id="@+id/editDuties2"
+                android:layout_width="wrap_content"
+                android:layout_height="122dp"
+                android:layout_below="@+id/editAddress2"
+                android:layout_marginStart="75dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="32dp"
+                android:layout_toEndOf="@+id/txtDuties2"
+                android:layout_toRightOf="@+id/txtDuties2"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textColor="#292626" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</FrameLayout>

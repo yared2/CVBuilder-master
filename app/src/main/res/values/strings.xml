@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CVBuilder</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="ba_in_english_literature_cambridge_university_cambridge_us_2017_3_8_cgpa_n_masters_in_computer_science_4_0_gpa_stanford_university_chicago_us_2013">BA in English Literature Cambridge University | Cambridge, US | 2017 3.8 CGPA   Masters in Computer Science 4.0 GPA Stanford University | Chicago, US | 2013</string>
+    <string name="ba_in">ba_in_english_literature_cambridge_university_cambridge_us_2017_3_8_cgpa_n_masters_in_computer_science_4_0_gpa_stanford_university_chicago_us_2013</string>
+</resources>

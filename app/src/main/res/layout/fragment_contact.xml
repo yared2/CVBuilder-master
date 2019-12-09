@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtStreet"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="84dp"
+            android:text="Street"
+            android:textColor="#E9CC65"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtStreet"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="57dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="45dp"
+            android:text="City"
+            android:textColor="#E9CC65"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtState"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtCity"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="48dp"
+            android:text="State"
+            android:textColor="#E9CC65"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtCountry"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtState"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="54dp"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="55dp"
+            android:text="Country"
+            android:textColor="#E9CC65"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtCountry"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="53dp"
+            android:text="Phone"
+            android:textColor="#E9CC65"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPhone"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="63dp"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="52dp"
+            android:text="Email"
+            android:textColor="#E9CC65"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editStreet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="83dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_toEndOf="@+id/txtStreet"
+            android:layout_toRightOf="@+id/txtStreet"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#292626" />
+
+        <EditText
+            android:id="@+id/editCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editStreet"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_toEndOf="@+id/txtCity"
+            android:layout_toRightOf="@+id/txtCity"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#292626" />
+
+        <EditText
+            android:id="@+id/editState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editCity"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_toEndOf="@+id/txtState"
+            android:layout_toRightOf="@+id/txtState"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#292626" />
+
+        <EditText
+            android:id="@+id/editCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editState"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_toEndOf="@+id/txtCountry"
+            android:layout_toRightOf="@+id/txtCountry"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#292626" />
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editCountry"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_toEndOf="@+id/txtPhone"
+            android:layout_toRightOf="@+id/txtPhone"
+            android:ems="10"
+            android:inputType="phone"
+            android:textColor="#292626" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editPhone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_toEndOf="@+id/txtEmail"
+            android:layout_toRightOf="@+id/txtEmail"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="#292626" />
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
